@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Protocolo e Entrega de EPI</title>
+</head>
+<body>
+    <h1>Solicitação de EPI</h1>
+    <form id="epiForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required><br><br>
+        
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento" required><br><br>
+
+        <label for="epi">EPI Solicitado:</label>
+        <select id="epi" required>
+            <option value="luvas">Luvas</option>
+            <option value="mascara">Máscara</option>
+            <option value="oculos">Óculos de proteção</option>
+        </select><br><br>
+
+        <button type="submit">Enviar Solicitação</button>
+    </form>
+
+    <h2>Status de Entrega</h2>
+    <div id="status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
