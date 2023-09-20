@@ -1,21 +1,37 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: rgb(71, 129, 156);
     
   }
   
   form {
     margin: 20px auto;
-    max-width: 400px;
-    padding: 20px;
+    width: 400px;
+    padding: 50px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   h1 {
-    color: #333;
+    color: #090f11;
+  }
+
+  #departamento {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
   }
   
+
+  #nome {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+  }
+
   label {
     display: block;
     margin-bottom: 5px;
@@ -28,7 +44,7 @@ body {
   }
   
   button {
-    background-color: #007BFF;
+    background-color: #213f5f;
     color: #fff;
     padding: 10px 20px;
     border: none;
